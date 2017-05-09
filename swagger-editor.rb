@@ -10,5 +10,6 @@ class SwaggerEditor < Formula
 
   def install
     ohai 'empty'
+    system 'ls'
   end
 end
