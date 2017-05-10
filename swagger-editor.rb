@@ -10,6 +10,6 @@ class SwaggerEditor < Formula
 
   def install
     ohai "#{prefix}/swagger"
-    prefix.install 'homebrew.mxcl.swagger-editor.plist'
+    prefix.install 'swagger-editor.plist'
   end
 end
