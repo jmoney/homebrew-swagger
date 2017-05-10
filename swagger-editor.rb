@@ -9,7 +9,7 @@ class SwaggerEditor < Formula
   head 'https://github.com/jmoney8080/homebrew-swagger.git'
 
   def install
-    ohai 'empty'
-    system 'ls'
+    ohai "#{prefix}/swagger"
+    prefix.install 'homebrew.mxcl.swagger-editor.plist'
   end
 end
