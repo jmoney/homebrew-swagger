@@ -2,11 +2,8 @@ require 'formula'
 
 class SwaggerEditor < Formula
   homepage 'http://jmoney8080.github.io/dotfiles'
-  url 'http://www.google.com'
-  sha256 'cf31291083030aa73cfaddd69fa530918a4c0020f54c376458a4f499422e2a69'
-  version '0.1'
-
-  head 'https://github.com/jmoney8080/homebrew-swagger.git'
+  url 'https://github.com/jmoney8080/swagger-editor-plist/archive/v1.0.tar.gz'
+  sha256 '5bbf09385a478c95fbf55c345b6c6279489e8f4b'
 
   def install
     ohai "#{prefix}/swagger"
